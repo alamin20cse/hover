@@ -42,7 +42,7 @@ font-size: 30px;
 display: flex;
 flex-direction: column;
 margin-top: 20px;
-height: 400px;
+height: 200px;
 width: 300px;
 border: 5px solid yellow;
 
@@ -51,5 +51,41 @@ border: 5px solid yellow;
 {
     display: flex;
     justify-content: center;
+    /* align-items: center; */
+  
+  
+}
+.item
+{
+    border: 2px solid peru;
+}
+.grid-continar
+{
+    display: grid;
+    /* grid-template-columns: 200px 200px 100px; */
+    /* grid-template-columns: repeat(3,100px); */
+    grid-template-columns: repeat(3,1fr);
+}
+.calander
+{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+  
+   row-gap: 20px;
+   column-gap: 20px;
+}
+.date, .day
+{
+   
+    background-color: aqua;
+    border-radius: 5px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    font-size: 1.5em;
+}
+.day
+{
+    background-color:lightcoral;
 }
