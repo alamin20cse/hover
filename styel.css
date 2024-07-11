@@ -89,3 +89,23 @@ border: 5px solid yellow;
 {
     background-color:lightcoral;
 }
+.food img
+{
+    height: 700px;
+    width: 700px;
+
+}
+.imgcontinar
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    
+    
+}
+
+.food
+{
+    border: 10px solid  yellow; 
+}
