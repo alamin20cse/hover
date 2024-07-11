@@ -2,3 +2,54 @@ h1:hover
 {
     background-color: red;
 }
+.from input
+{
+    margin-top: 20px;
+}
+.continar
+{
+    border: 5px dashed tomato ;
+    height: 300px;
+    display: flex;
+   
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.box
+{
+    border: 5px solid green;
+    height: 50px ;
+    width: 100px;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+  
+}
+nav a
+{
+text-decoration: none; 
+color: black;
+font-size: 30px;
+
+
+}
+.from
+{
+display: flex;
+flex-direction: column;
+margin-top: 20px;
+height: 400px;
+width: 300px;
+border: 5px solid yellow;
+
+}
+.section1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
