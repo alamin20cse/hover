@@ -91,8 +91,8 @@ border: 5px solid yellow;
 }
 .food img
 {
-    height: 700px;
-    width: 700px;
+    height: 400px;
+    width: 400px;
 
 }
 .imgcontinar
@@ -109,3 +109,42 @@ border: 5px solid yellow;
 {
     border: 10px solid  yellow; 
 }
+/* for small device */
+@media screen and (max-width:576px) {
+
+    .imgcontinar
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .food
+{
+    border: 10px solid  red; 
+}
+    
+}
+/* for medium device   */
+
+@media screen and (min-width:577px) and (max-width:992px) {
+
+    .imgcontinar
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .food
+{
+    border: 10px solid  green; 
+}
+    
+}
+
+
+
+/* 
+
+.task3 img
+{
+    height: 100%;
+    width: 100%;
+} */
